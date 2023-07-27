@@ -2,20 +2,19 @@ const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
-const workoutSchema = new Schema({
-    title:{
+const courseSchema = new Schema({
+    img:{
         type: String,
         required: true
     },
-    reps: {
-        type: Number,
+    title: {
+        type: String,
         reuiqred: true
     },
-    load: {
-        type: Number,
+    description: {
+        type: String,
         required: true
     }
 }, {timestamps: true})
 
-module.exports = mongoose.model('Workout', workoutSchema)
-
+module.exports = mongoose.model('Course', courseSchema)

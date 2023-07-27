@@ -3,8 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const mongooes = require('mongoose')
-const workoutRouter = require('./routes/workout')
-
+const courseRouter = require('./routes/course')
 
 // middleware
 
@@ -16,7 +15,7 @@ app.use((req,res,next) =>{
 })
 
 // Route
-app.use('/api/workouts',workoutRouter)
+app.use('/api/courses',courseRouter)
 
 // connect to db
 mongooes.connect(process.env.MONGO_URI)
