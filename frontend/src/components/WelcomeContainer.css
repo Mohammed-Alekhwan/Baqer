@@ -1,0 +1,31 @@
+.sara {
+  font-weight: 700;
+}
+.welcome-child,
+.welcome-sara {
+  position: absolute;
+  top: 25.74%;
+  left: 0;
+}
+.welcome-child {
+  height: 86.14%;
+  width: 26.06%;
+  top: 12.87%;
+  right: 0;
+  bottom: 0.99%;
+  left: 73.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.welcome {
+  position: absolute;
+  top: 121px;
+  left: 325px;
+  width: 518px;
+  height: 101px;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

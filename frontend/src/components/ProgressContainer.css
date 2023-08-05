@@ -1,0 +1,258 @@
+.progress-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+}
+.progress7 {
+  position: absolute;
+  width: 86.08%;
+  top: 3.28%;
+  left: 7.1%;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+}
+.monthly {
+  position: absolute;
+  top: 6.57%;
+  left: 78.98%;
+  font-weight: 300;
+}
+.progress-item {
+  position: absolute;
+  height: 1.53%;
+  width: 2.09%;
+  top: 8.88%;
+  right: 4.07%;
+  bottom: 89.6%;
+  left: 93.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.progress-inner {
+  position: absolute;
+  top: 199px;
+  left: 23px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray);
+  width: 20px;
+  height: 26px;
+}
+.progress-child1,
+.progress-child2,
+.progress-child3,
+.progress-child4,
+.progress-child5,
+.progress-child6 {
+  position: absolute;
+  top: 190px;
+  left: 49px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray);
+  width: 20px;
+  height: 35px;
+}
+.progress-child2,
+.progress-child3,
+.progress-child4,
+.progress-child5,
+.progress-child6 {
+  top: 186px;
+  left: 75px;
+  height: 39px;
+}
+.progress-child3,
+.progress-child4,
+.progress-child5,
+.progress-child6 {
+  top: 202px;
+  left: 101px;
+  height: 23px;
+}
+.progress-child4,
+.progress-child5,
+.progress-child6 {
+  top: 178px;
+  left: 127px;
+  height: 47px;
+}
+.progress-child5,
+.progress-child6 {
+  top: 186px;
+  left: 153px;
+  height: 39px;
+}
+.progress-child6 {
+  top: 147px;
+  left: 179px;
+  background-color: var(--color-lightsteelblue-300);
+  height: 78px;
+}
+.progress-child10,
+.progress-child11,
+.progress-child7,
+.progress-child8,
+.progress-child9 {
+  position: absolute;
+  top: 193px;
+  left: 205px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray);
+  width: 20px;
+  height: 32px;
+}
+.progress-child10,
+.progress-child11,
+.progress-child8,
+.progress-child9 {
+  top: 178px;
+  left: 231px;
+  height: 47px;
+}
+.progress-child10,
+.progress-child11,
+.progress-child9 {
+  top: 199px;
+  left: 257px;
+  height: 26px;
+}
+.progress-child10,
+.progress-child11 {
+  top: 186px;
+  left: 283px;
+  height: 39px;
+}
+.progress-child11 {
+  top: 193px;
+  left: 309px;
+  height: 32px;
+}
+.div {
+  left: 20px;
+  width: 20.27px;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  top: 229px;
+  font-weight: 300;
+  display: inline-block;
+}
+.div1 {
+  left: 47.27px;
+  width: 20.27px;
+}
+.div2 {
+  left: 74.55px;
+}
+.div2,
+.div3,
+.div4 {
+  width: 20.27px;
+}
+.div3 {
+  position: absolute;
+  top: 229px;
+  left: 101.82px;
+  font-weight: 300;
+  display: inline-block;
+}
+.div4 {
+  left: 129.09px;
+}
+.div4,
+.div5,
+.div6 {
+  position: absolute;
+  top: 229px;
+  font-weight: 300;
+  display: inline-block;
+}
+.div5 {
+  left: 156.36px;
+  width: 20.27px;
+}
+.div6 {
+  left: 183.64px;
+}
+.div6,
+.div7,
+.div8 {
+  width: 20.27px;
+}
+.div7 {
+  position: absolute;
+  top: 229px;
+  left: 210.91px;
+  font-weight: 300;
+  display: inline-block;
+}
+.div8 {
+  left: 238.18px;
+}
+.div10,
+.div11,
+.div8,
+.div9 {
+  position: absolute;
+  top: 229px;
+  font-weight: 300;
+  display: inline-block;
+}
+.div9 {
+  left: 265.45px;
+  width: 12px;
+}
+.div10,
+.div11 {
+  width: 20.27px;
+}
+.div10 {
+  left: 284.45px;
+  text-align: center;
+}
+.div11 {
+  left: 311.73px;
+}
+.progress-child24 {
+  position: absolute;
+  height: 8.39%;
+  width: 5.68%;
+  top: 37.59%;
+  right: 43.47%;
+  bottom: 54.01%;
+  left: 50.85%;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lightslategray);
+}
+.h,
+.progress6 {
+  position: absolute;
+}
+.h {
+  top: 39.05%;
+  left: 51.14%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  opacity: 0.7;
+}
+.progress6 {
+  top: 272px;
+  left: 1069px;
+  width: 352px;
+  height: 274px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

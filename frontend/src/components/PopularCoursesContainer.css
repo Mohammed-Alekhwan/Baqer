@@ -1,0 +1,372 @@
+.popular-courses-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+}
+.popular-courses1 {
+  position: absolute;
+  width: 86.08%;
+  top: 7.69%;
+  left: 8.52%;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+}
+.popular-courses-inner,
+.popular-courses-item {
+  position: absolute;
+  height: 2.84%;
+  width: 6.28%;
+  top: 11.08%;
+  right: 28.4%;
+  bottom: 86.09%;
+  left: 65.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-inner {
+  height: 21.72%;
+  width: 92.05%;
+  top: 18.78%;
+  right: 4.26%;
+  bottom: 59.5%;
+  left: 3.69%;
+  border-radius: var(--br-xl);
+}
+.by-ibm {
+  position: absolute;
+  top: 26.02%;
+  left: 11.65%;
+  font-weight: 300;
+}
+.ibm-security-analytics {
+  position: absolute;
+  top: 21.72%;
+  left: 11.65%;
+  font-size: var(--font-size-base);
+}
+.popular-courses-child1,
+.popular-courses-child2,
+.popular-courses-child3,
+.popular-courses-child4,
+.star-icon {
+  position: absolute;
+  height: 3.39%;
+  width: 4.26%;
+  top: 30.54%;
+  right: 83.99%;
+  bottom: 66.06%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-child1,
+.popular-courses-child2,
+.popular-courses-child3,
+.popular-courses-child4 {
+  right: 79.73%;
+  left: 16.01%;
+}
+.popular-courses-child2,
+.popular-courses-child3,
+.popular-courses-child4 {
+  right: 75.46%;
+  left: 20.27%;
+}
+.popular-courses-child3,
+.popular-courses-child4 {
+  right: 71.2%;
+  left: 24.54%;
+}
+.popular-courses-child4 {
+  right: 66.94%;
+  left: 28.8%;
+}
+.h1 {
+  position: absolute;
+  top: 35.29%;
+  left: 17.05%;
+  font-weight: 500;
+}
+.popular-courses-child5 {
+  position: absolute;
+  height: 5.2%;
+  width: 22.44%;
+  top: 33.94%;
+  right: 34.38%;
+  bottom: 60.86%;
+  left: 43.18%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightsteelblue-200);
+}
+.explore {
+  position: absolute;
+  top: 148.5px;
+  left: 164.15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50.9px;
+  height: 24px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 155px;
+  left: 214.68px;
+  width: 10.11px;
+  height: 10.83px;
+}
+.clock-7-icon,
+.popular-courses-child6 {
+  position: absolute;
+  height: 3.39%;
+  width: 4.26%;
+  top: 35.29%;
+  right: 83.81%;
+  bottom: 61.31%;
+  left: 11.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-child6 {
+  height: 21.72%;
+  width: 92.05%;
+  top: 44.34%;
+  right: 4.26%;
+  bottom: 33.94%;
+  left: 3.69%;
+  border-radius: var(--br-xl);
+}
+.by-qclay {
+  position: absolute;
+  top: 51.58%;
+  left: 11.65%;
+  font-weight: 300;
+}
+.typography-and-font {
+  position: absolute;
+  top: 47.29%;
+  left: 11.65%;
+  font-size: var(--font-size-base);
+}
+.popular-courses-child10,
+.popular-courses-child11,
+.popular-courses-child7,
+.popular-courses-child8,
+.popular-courses-child9 {
+  position: absolute;
+  height: 3.39%;
+  width: 4.26%;
+  top: 56.11%;
+  right: 83.99%;
+  bottom: 40.5%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-child10,
+.popular-courses-child11,
+.popular-courses-child8,
+.popular-courses-child9 {
+  right: 79.73%;
+  left: 16.01%;
+}
+.popular-courses-child10,
+.popular-courses-child11,
+.popular-courses-child9 {
+  right: 75.46%;
+  left: 20.27%;
+}
+.popular-courses-child10,
+.popular-courses-child11 {
+  right: 71.2%;
+  left: 24.54%;
+}
+.popular-courses-child11 {
+  right: 66.94%;
+  left: 28.8%;
+}
+.h2 {
+  position: absolute;
+  top: 60.86%;
+  left: 17.05%;
+  font-weight: 500;
+}
+.popular-courses-child12 {
+  position: absolute;
+  height: 5.2%;
+  width: 22.44%;
+  top: 59.5%;
+  right: 34.38%;
+  bottom: 35.29%;
+  left: 43.18%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightsteelblue-200);
+}
+.explore1 {
+  position: absolute;
+  top: 261.5px;
+  left: 164.15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50.9px;
+  height: 24px;
+}
+.popular-courses-child13 {
+  position: absolute;
+  top: 268px;
+  left: 214.68px;
+  width: 10.11px;
+  height: 10.83px;
+}
+.clock-7-icon1,
+.popular-courses-child14 {
+  position: absolute;
+  height: 3.39%;
+  width: 4.26%;
+  top: 60.86%;
+  right: 83.81%;
+  bottom: 35.75%;
+  left: 11.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-child14 {
+  height: 21.72%;
+  width: 92.05%;
+  top: 69.91%;
+  right: 4.26%;
+  bottom: 8.37%;
+  left: 3.69%;
+  border-radius: var(--br-xl);
+}
+.by-pro-it,
+.creativity-in-logo {
+  position: absolute;
+  left: 11.65%;
+  display: inline-block;
+}
+.by-pro-it {
+  width: 27.56%;
+  top: 77.15%;
+  font-weight: 300;
+}
+.creativity-in-logo {
+  width: 55.97%;
+  top: 72.85%;
+  font-size: var(--font-size-base);
+}
+.popular-courses-child15,
+.popular-courses-child16,
+.popular-courses-child17,
+.popular-courses-child18,
+.popular-courses-child19 {
+  position: absolute;
+  height: 3.39%;
+  width: 4.26%;
+  top: 81.67%;
+  right: 83.99%;
+  bottom: 14.93%;
+  left: 11.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses-child16,
+.popular-courses-child17,
+.popular-courses-child18,
+.popular-courses-child19 {
+  right: 79.73%;
+  left: 16.01%;
+}
+.popular-courses-child17,
+.popular-courses-child18,
+.popular-courses-child19 {
+  right: 75.46%;
+  left: 20.27%;
+}
+.popular-courses-child18,
+.popular-courses-child19 {
+  right: 71.2%;
+  left: 24.54%;
+}
+.popular-courses-child19 {
+  right: 66.94%;
+  left: 28.8%;
+}
+.h3 {
+  position: absolute;
+  width: 6.53%;
+  top: 86.43%;
+  left: 17.05%;
+  font-weight: 500;
+  display: inline-block;
+}
+.popular-courses-child20 {
+  position: absolute;
+  height: 5.2%;
+  width: 22.44%;
+  top: 85.07%;
+  right: 34.38%;
+  bottom: 9.73%;
+  left: 43.18%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightsteelblue-200);
+}
+.explore2 {
+  position: absolute;
+  top: 374.5px;
+  left: 164.15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50.9px;
+  height: 24px;
+}
+.clock-7-icon2,
+.popular-courses-child21 {
+  position: absolute;
+  top: 381px;
+  left: 214.68px;
+  width: 10.11px;
+  height: 10.83px;
+}
+.clock-7-icon2 {
+  height: 3.39%;
+  width: 4.26%;
+  top: 86.43%;
+  right: 83.81%;
+  bottom: 10.18%;
+  left: 11.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.popular-courses {
+  position: absolute;
+  top: 871px;
+  left: 1069px;
+  width: 352px;
+  height: 442px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

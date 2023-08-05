@@ -1,0 +1,214 @@
+.side-bar-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow: 10px 10px 32px rgba(22, 22, 22, 0.04);
+}
+.meetings,
+.my-courses {
+  position: absolute;
+  top: 14.16%;
+  left: 5.35%;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkgray);
+}
+.meetings {
+  top: 344px;
+  left: 16px;
+}
+.side-bar-item {
+  position: absolute;
+  top: 386px;
+  left: 44px;
+  border-radius: var(--br-5xs);
+  width: 203px;
+  height: 48px;
+}
+.chevron-right-icon {
+  position: absolute;
+  top: 394px;
+  left: 204px;
+  width: 24px;
+  height: 24px;
+}
+.schedule-meeting {
+  position: absolute;
+  top: 396px;
+  left: 62px;
+  font-family: var(--font-inter);
+}
+.chat {
+  position: absolute;
+  top: 526px;
+  left: 16px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkgray);
+}
+.ellipse-div,
+.side-bar-inner {
+  position: absolute;
+  border-radius: 50%;
+}
+.side-bar-inner {
+  top: 46px;
+  left: 107px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+.ellipse-div {
+  top: 88px;
+  left: 148px;
+  background-color: var(--color-limegreen);
+  width: 10px;
+  height: 10px;
+}
+.sara-doe,
+.saradoegmailcom {
+  position: absolute;
+  left: 71.5px;
+  display: inline-block;
+  width: 126px;
+}
+.sara-doe {
+  top: 101px;
+  text-align: center;
+  height: 27px;
+}
+.saradoegmailcom {
+  top: 128px;
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+}
+.chevron-right-icon1,
+.rectangle-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-icon {
+  height: 3.93%;
+  width: 66.56%;
+  top: 17.18%;
+  right: 18.73%;
+  bottom: 78.89%;
+  left: 14.72%;
+  border-radius: var(--br-5xs);
+}
+.chevron-right-icon1 {
+  height: 1.96%;
+  width: 8.76%;
+  top: 17.84%;
+  right: 27.37%;
+  bottom: 80.2%;
+  left: 63.87%;
+}
+.in-progress {
+  position: absolute;
+  width: 31.03%;
+  top: 18%;
+  left: 29.56%;
+  font-family: var(--font-inter);
+  display: inline-block;
+}
+.side-bar-child1 {
+  position: absolute;
+  top: 265px;
+  left: 44px;
+  border-radius: var(--br-5xs);
+  width: 203px;
+  height: 48px;
+}
+.chevron-right-icon2 {
+  position: absolute;
+  top: 273px;
+  left: 179px;
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+.side-bar-child4 {
+  position: absolute;
+  top: 441px;
+  left: 44px;
+  border-radius: var(--br-5xs);
+  width: 203px;
+  height: 48px;
+}
+
+
+
+.log-out-icon {
+  position: absolute;
+  top: 1173.08px;
+  left: 20px;
+  width: 28.52px;
+  height: 20.83px;
+  overflow: hidden;
+}
+.log-out {
+  position: absolute;
+  top: 1171.5px;
+  left: 60.52px;
+  font-weight: 600;
+  display: inline-block;
+  width: 73.48px;
+  height: 24px;
+}
+.side-bar {
+  position: absolute;
+  top: 103px;
+  left: 7px;
+  width: 299px;
+  height: 1222px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.button {
+  border: 0px none;
+  background-color:rgb(51, 102, 255,0.2);
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: black;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  margin: 4px 2px;
+  text-emphasis-position: fixed;
+  cursor: pointer;
+}
+.Logout-button {
+  border: 0px none;
+  background-color:rgb(51, 102, 255,0.2);
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: black;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  margin: 4px 2px;
+  text-emphasis-position: fixed;
+  cursor: pointer;
+}
+
