@@ -167,3 +167,16 @@
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+.courses-box{
+  display:inline-block;
+  justify-content: space-between;
+  position: relative;
+  width: 200px;
+  height: 290px;
+  background: white;
+  border-radius: 20px;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 10px;
+  font-family:"Inter-Regular", Helvetica;
+}

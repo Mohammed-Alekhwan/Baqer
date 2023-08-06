@@ -1,12 +1,32 @@
 import "./Courses.css";
+import { useEffect, setWorkouts, useState } from "react";
 const Courses = (props) => {
+  const [Workouts, setWorkouts]= useState(null)
 
+  useEffect(()=> {
+    const fetchWorouts = async () => {
+      const response = await fetch('/api/courses')
+      const json = await response.json()
+
+      if (response.ok){
+        setWorkouts(json)
+      }
+    }
+    fetchWorouts() 
+  }, [])
 
   return (
     <div className="courses">
 
 <p>{props.showCompleted? "completed courses":""}</p>
 <p>{props.showInprogress?"Inprogrss coursdes":""}</p>
+
+{Workouts && Workouts.map((workouts) =>(
+          <p className= "courses-box" key={workouts.id} > 
+          {workouts.img} <p>{workouts.title}</p> <p>{workouts.description} </p> </p>
+
+        ))}
+        
 
       {/* <div className="course12">
         <div className="course-1">

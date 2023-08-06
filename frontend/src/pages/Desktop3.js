@@ -12,16 +12,35 @@ import { useEffect, setWorkouts, useState } from "react";
 const Desktop3 = () => {
   const [showCompleted,setShowComplated] = useState(true);
   const [showInprogress,setInprogress] = useState(true);
+  const [Workouts, setWorkouts]= useState(null)
+
+  useEffect(()=> {
+    const fetchWorouts = async () => {
+      const response = await fetch('/api/courses')
+      const json = await response.json()
+
+      if (response.ok){
+        setWorkouts(json)
+      }
+    }
+    fetchWorouts() 
+  }, [])
+
+
   return (
     <div className="desktop-3">
       <Courses showInprogress={showInprogress} showCompleted={showCompleted} />
       <SideBar showCompleted={setShowComplated} showInprogress={setInprogress} />
-      <FooterIcon />
-      <MainHeader />
       <ProgressContainer />
       <Achievments />
       <WelcomeContainer />
       <PopularCoursesContainer />
+      <div className="workouts">
+        {/* {Workouts && Workouts.map((workouts) =>(
+          <p key={workouts.id} > {workouts.title}</p>
+
+        ))} */}
+      </div>
     </div>
   );
 };

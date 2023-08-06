@@ -1,11 +1,14 @@
+import axios from 'axios';
+import { useEffect, useState } from "react";
 import {
+  BrowserRouter ,
   Routes,
   Route,
   useNavigationType,
   useLocation,
 } from "react-router-dom";
 import Desktop3 from "./pages/Desktop3";
-import { useEffect, useState } from "react";
+
 
 function App() {
   const action = useNavigationType();

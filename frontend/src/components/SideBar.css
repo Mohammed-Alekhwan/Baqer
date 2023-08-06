@@ -1,11 +1,12 @@
-.side-bar-child {
-  position: absolute;
+.side-bar{
+  position: fixed;
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  background-color:rgba(249, 250, 255, 1) ;
   border-radius: var(--br-4xl);
   background-color: var(--color-ghostwhite);
   box-shadow: 10px 10px 32px rgba(22, 22, 22, 0.04);
@@ -24,7 +25,7 @@
   left: 16px;
 }
 .side-bar-item {
-  position: absolute;
+  position: fixed;
   top: 386px;
   left: 44px;
   border-radius: var(--br-5xs);
@@ -136,12 +137,6 @@
   height: 24px;
 }
 
-
-
-
-
-
-
 .side-bar-child4 {
   position: absolute;
   top: 441px;
@@ -151,19 +146,9 @@
   height: 48px;
 }
 
-
-
-.log-out-icon {
-  position: absolute;
-  top: 1173.08px;
-  left: 20px;
-  width: 28.52px;
-  height: 20.83px;
-  overflow: hidden;
-}
 .log-out {
   position: absolute;
-  top: 1171.5px;
+  top: 1150.5px;
   left: 60.52px;
   font-weight: 600;
   display: inline-block;
@@ -182,25 +167,31 @@
   font-family: var(--font-poppins);
 }
 .button {
+
   border: 0px none;
   background-color:rgb(51, 102, 255,0.2);
+  width: 195px; 
+  height: 40px; ;
   border-radius: 12px;
-  padding: 15px 32px;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: black;
   display: inline-block;
-  font-size: 16px;
   font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
+  font-size: var(--font-size-xl);
+  font-weight:500;
   margin: 4px 2px;
   text-emphasis-position: fixed;
   cursor: pointer;
 }
 .Logout-button {
   border: 0px none;
-  background-color:rgb(51, 102, 255,0.2);
+  width: 195px; 
+  height: 40px; ;
   border-radius: 12px;
   padding: 15px 32px;
+  background-color:rgb(51, 102, 255,0.2);
+  border-radius: 12px;
   text-align: center;
   text-decoration: black;
   display: inline-block;

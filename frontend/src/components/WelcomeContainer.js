@@ -1,5 +1,10 @@
 import BooksIcon from "./BooksIcon";
 import "./WelcomeContainer.css";
+const greetings = ["Good Morning" ,"Good Afternoon","Good Evning"];
+// const currentHour = new Date().getHours();
+
+// let index = currentHour >= 12 && currentHour
+
 const WelcomeContainer = () => {
   return (
     <div className="welcome">

@@ -1,5 +1,5 @@
 const express = require('express')
-
+const Course =require('models/CoursesModel')
 const router = express.Router()
 
 const {
@@ -13,7 +13,11 @@ router.get('/',getCourses)
 router.get('/:id', getCourse)
 
 // post a new workout
-router.post('/', createCourse)
+router.post('/:id',(req ,res) => {
+    const {img,title,description} =req.body
+    
+    res.json({mssh:"post a new course"})
+})
 
 // delete a workout
 router.delete('/:id', deleteCourse)

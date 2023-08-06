@@ -1,5 +1,5 @@
 .achievments-child {
-  position: absolute;
+  position: static;
   height: 100%;
   width: 100%;
   top: 0;
@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 .achievements {
-  position: absolute;
+  position:absolute;
   width: 86.08%;
   top: 7.66%;
   left: 7.1%;
