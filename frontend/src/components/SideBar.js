@@ -1,49 +1,35 @@
 import "./SideBar.css";
-import React, { useState } from 'react';
 
-const SideBar = (props) => {
+
+const SideBar = () => {
   return (
     <div className="side-bar">
-      
+      <div className="pfp-container">
+        <img src="pfp.png" className="pfp-image"/>
+        <p className="pfp-name">Sara Doe</p>
+        <a href="mailto:saradoe@gmail.com" className="email">saradoe@gmail.com</a>
+      </div>
 
-      {/* --------------------My Courses--------------------- */}
-      <ul  className="my-courses">My Courses
+    <div className="sidebar-section">
+      <p className="sidebar-section-title">My Courses</p>
+      <a className="button-sidebar"> In progress <img src="right-arrow.png" width="8px" height="8px"/></a>
+      <a className="button-sidebar" > Completed <img src="right-arrow.png" width="8px" height="8px"/></a>
+    </div>
 
-      <li> <button className="button" onClick={()=>{
-         props.showCompleted(false);
-         props.showInprogress(true);
-        } }>
-          Inprogress 
-          </button>
-        </li>
-        <li> <button className="button" onClick={()=>{
-          props.showCompleted(true);
-          props.showInprogress(false);
-        } }>
-          Completed
-          </button>
-        </li>
-       
-      </ul>
-      {/* --------------------Meetings--------------------- */}
-<div></div>
+    <div className="sidebar-section">
+      <p className="sidebar-section-title">Meetings</p>
+      <a className="button-sidebar" > Schedule Meeting <img src="right-arrow.png" width="8px" height="8px"/></a>
+      <a className="button-sidebar" > Meeting Room<img src="right-arrow.png" width="8px" height="8px"/></a>
+    </div>
 
-      <ul className="meetings">Meetings
-        <li ><button className="button">Schedule Meeting</button> </li>
-        <li ><button className="button">Meeting Room</button> </li>
 
-      </ul>
-      {/* --------------------chat--------------------- */}
-      <ul className="chat">chat
-      <li ><button className="button">June Yung </button> </li>
-        <li ><button className="button">Talia Khan</button> </li>
-      </ul>
+    <div className="sidebar-section">
+      <p className="sidebar-section-title">Chat</p>
+      <a className="button-sidebar"> June Yung <img src="right-arrow.png" width="8px" height="8px"/></a>
+      <a className="button-sidebar" > Talia Khan <img src="right-arrow.png" width="8px" height="8px"/></a>
+    </div>
 
-      {/* ---------------------Logout-------------------- */}
-      <div className="log-out">
-      <button className="Logout-button">Logout</button>
-        </div>
-
+    <a className="logout"> <img src="logout.png" />Log out</a>
     </div>
   );
 };
