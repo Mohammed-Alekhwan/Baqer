@@ -16,6 +16,7 @@ app.use((req,res,next) =>{
 
 // Route
 app.use('/api/courses',courseRouter)
+app.use('/images', express.static('images'))
 
 // connect to db
 mongooes.connect(process.env.MONGO_URI)

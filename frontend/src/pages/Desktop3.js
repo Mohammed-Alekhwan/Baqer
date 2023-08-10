@@ -1,7 +1,7 @@
 import Courses from "../components/Courses";
+ import Footer from "../components/Footer";
+ import Header from "../components/Header";
 import SideBar from "../components/SideBar";
-import FooterIcon from "../components/FooterIcon";
-import MainHeader from "../components/MainHeader";
 import ProgressContainer from "../components/ProgressContainer";
 import Achievments from "../components/Achievments";
 import WelcomeContainer from "../components/WelcomeContainer";
@@ -13,6 +13,7 @@ const Desktop3 = () => {
   const [showCompleted,setShowComplated] = useState(true);
   const [showInprogress,setInprogress] = useState(true);
   const [Workouts, setWorkouts]= useState(null)
+  
 
   useEffect(()=> {
     const fetchWorouts = async () => {
@@ -28,20 +29,32 @@ const Desktop3 = () => {
 
 
   return (
-    <div className="desktop-3">
+
+    <div className="main">
+
+
+    
+    <div  className="desktop-3" >
+      
+          <Header/>  
+        
+         <WelcomeContainer />
       <Courses showInprogress={showInprogress} showCompleted={showCompleted} />
       <SideBar showCompleted={setShowComplated} showInprogress={setInprogress} />
       <ProgressContainer />
       <Achievments />
-      <WelcomeContainer />
       <PopularCoursesContainer />
-      <div className="workouts">
-        {/* {Workouts && Workouts.map((workouts) =>(
-          <p key={workouts.id} > {workouts.title}</p>
+     
+        
+     </div>
 
-        ))} */}
-      </div>
-    </div>
+      <Footer/>   
+  </div>
+  
+      
+      
+  
+    
   );
 };
 

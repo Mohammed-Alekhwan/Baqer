@@ -41,7 +41,7 @@ const SideBar = (props) => {
 
       {/* ---------------------Logout-------------------- */}
       <div className="log-out">
-      <button className="Logout-button">Logout</button>
+      <button className="Logout-button">Logout </button>
         </div>
 
     </div>

@@ -1,7 +1,15 @@
 .desktop-3 {
-  position: relative;
-  background-color: var(--color-aliceblue);
-  width: 100%;
-  height: 1674px;
-  overflow: hidden;
+  justify-content: center;
+  position:relative;
+  background-color: rgb(240, 244, 254) ;
+  width:100%;
+  height: 100%;
+  display: flex;
+  /* background-color: rgb(255, 255, 255); */
+  /* flex-wrap: wrap; */
 }
+.main{
+  position: relative;
+}
+  
+  

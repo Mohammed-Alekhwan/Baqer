@@ -1,5 +1,5 @@
 .progress-child {
-  position: absolute;
+  position: flex;
   height: 100%;
   width: 100%;
   top: 0;
