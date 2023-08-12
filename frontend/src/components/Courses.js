@@ -20,14 +20,20 @@ const Courses = (props) => {
 
 <p>{props.showCompleted? "completed courses":""}</p>
 <p>{props.showInprogress?"Inprogrss coursdes":""}</p>
-
+<div class="flex-container">
+ 
 {Workouts && Workouts.map((workouts) =>(
-          <p className= "courses-box" key={workouts.id} > 
-          {workouts.img} <p>{workouts.title}</p> <p>{workouts.description} </p> </p>
+          <span className= "courses-box" key={workouts.id} > 
+        
+          <img  className="img" src={workouts.img} /> <p className="title">{workouts.title}</p> <p>{workouts.description} </p> </span>
+          
 
         ))}
         
-
+        </div>
+        
+             
+        
       {/* <div className="course12">
         <div className="course-1">
           <img className="course-1-child" alt="" src="/rectangle-24@2x.png" />
