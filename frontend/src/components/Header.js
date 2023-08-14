@@ -1,59 +1,68 @@
 import './Header.css';
-//  import logo from '../public/logo.svg';
-//  import profile from "../public/profile.svg";
+import logo from '../assets/logo.svg';
+import settings from "../assets/settings.png";
+import heart from "../assets/heart.png";
+import cart from "../assets/cart.png";
+import profile from "../assets/profile.svg";
 
 const Header=()=>{
     
     return (
-        <div className="navbar-bg">
+        <div  className="navbar-bg" >
             <div className="sb__navbar">
                 <div className="sb__navbar-links">
-                <img
-          className="sb__navbar-links_logo"
-          alt="Logo"
-          src="https://generation-sessions.s3.amazonaws.com/131c4f04101739b97fb86ff8e57de40e/img/logo-1@2x.png"
-        />
-                     {/* <div className="sb__navbar-links_logo">
+                    <div className="sb__navbar-links_logo">
                         
                         
-                             <img src={logo} alt="logo"/> 
+                            <img src={logo} alt="logo"/>
                         
-                    </div>  */}
+                    </div>
                     <div className="sb__navbar-links_container">
-                         <p>
+                        <p>
                             <a href="www.google.com">
                                 Search
                             </a>
-                        </p> 
-                         <div class="search-bar">
+                        </p>
+                        <div class="search-bar">
                             <i class="uil uil-search"></i>
                             <input type="search" placeholder=""/>
-                        </div> 
-                         <p>
+                        </div>
+                        <p>
                             <a href="www.google.com">
                                 Categories
                             </a>
-                        </p> 
-
+                        </p>
                         
-                        <img
-          className="shopping-cart"
-          alt="Shopping cart"
-          src="https://generation-sessions.s3.amazonaws.com/131c4f04101739b97fb86ff8e57de40e/img/shopping-cart-1.svg"
-        />
-                       <img
-          className="settings"
-          alt="Settings"
-          src="https://generation-sessions.s3.amazonaws.com/131c4f04101739b97fb86ff8e57de40e/img/settings-1.svg"
-        />
-        <img
-          className="heart"
-          alt="Heart"
-          src="https://generation-sessions.s3.amazonaws.com/131c4f04101739b97fb86ff8e57de40e/img/heart-1.svg"
-        />
-                    
                     </div>
                 </div>
+                        
+                        <div className="sb_icons">
+                        <p>
+                            <a href="www.google.com">
+                                <img src={settings} alt="settings" height="20"/>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="www.google.com">
+                                <img src={heart} alt="heart" height="20"/>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="www.google.com">
+                                <img src={cart} alt="cart" height="20"/>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="www.google.com">
+                                <img className="profile" src={profile} alt="profile" height="40"/>
+                            </a>
+                        </p>
+
+                    
+                     </div>
                
                           
                    

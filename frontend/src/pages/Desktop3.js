@@ -33,9 +33,9 @@ const Desktop3 = () => {
       <Courses  />
       <SideBar />
       <ProgressContainer />
-      <Achievments />
+      {/* <Achievments /> */}
       <WelcomeContainer />
-      <PopularCoursesContainer />
+      {/* <PopularCoursesContainer /> */}
       <Footer />
       
     </div>
